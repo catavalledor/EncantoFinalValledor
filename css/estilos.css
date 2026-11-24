@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+:root {
+    --violeta-oscuro: #261244;
+    --violeta-noche: #120d1c;
+    --violeta-medio: #76539b;
+    --violeta: #4e3273;
+    --lavanda: #d8b8f2;
+    --lavanda-claro: #f3edf7;
+    --borde-lavanda: #cbb6da;
+    --blanco: #ffffff;
+}
+
+
+html {
+    font-size: 16px;
+}
+
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: var(--lavanda-claro);
+    color: var(--violeta);
+}
+
+
+h1,
+h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+}
+
+
+/* NAVBAR */
+.navbar {
+    background-color: var(--violeta-noche);
+    padding: 15px 0;
+}
+
+
+.navbar-brand {
+    color: var(--blanco);
+    font-family: "Playfair Display", serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+
+.navbar .nav-link {
+    color: var(--blanco);
+    font-size: 1rem;
+    margin-left: 15px;
+    transition: color 0.3s ease;
+}
+
+
+.navbar .nav-link:hover {
+    color: var(--lavanda);
+}
+
+.navbar-brand:hover {
+    color: var(--blanco);
+}
+
+/* HERO */
+header {
+    background-color: var(--violeta-oscuro);
+    color: var(--blanco);
+    text-align: center;
+    padding: 80px 20px;
+}
+
+
+header h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+
+header .lead {
+    font-size: 1.2rem;
+    width: 70%;
+    margin: 0 auto 30px auto;
+    font-style: italic;
+}
+
+
+/* BOTONES */
+.btn {
+    background-color: var(--violeta-medio);
+    color: var(--blanco);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 22px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+
+.btn:hover {
+    background-color: var(--lavanda);
+    color: var(--violeta-oscuro);
+}
+
+/* SECCIONES */
+#rituales,
+#cristales {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+/* SECCION RITUAL */
+#rituales img {
+    border-radius: 16px;
+    width: 100%;
+    transition: all 0.4s ease;
+}
+
+#rituales img:hover {
+    opacity: 0.85;
+}
+
+#rituales h2 {
+    font-size: 2.5rem;
+    color: var(--violeta-oscuro);
+    margin-bottom: 20px;
+}
+
+#rituales h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--violeta-oscuro);
+    margin-bottom: 8px;
+}
+
+.paso-ritual {
+    border-bottom: 1px solid var(--borde-lavanda);
+    padding: 15px 0;
+}
+
+.paso-ritual p {
+    margin-bottom: 0;
+}
+
+.intro-ritual {
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+}
+
+/* SECCION CRISTALES */
+
+#cristales {
+    background-color: var(--violeta-oscuro);
+    color: var(--blanco);
+}
+
+#cristales h2 {
+    font-size: 2.5rem;
+    color: var(--lavanda);
+    margin-bottom: 15px;
+}
+
+.intro-cristales p {
+    font-size: 1.1rem;
+    margin-bottom: 35px;
+}
+
+/* CARDS DE CRISTALES */
+
+.card {
+    background-color: var(--lavanda-claro);
+    color: var(--violeta);
+    border-color: var(--borde-lavanda) !important;
+    border-radius: 15px;
+    transition: all 0.4s ease;
+}
+
+.card-title {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--violeta-medio);
+    margin-bottom: 20px;
+}
+
+.card-text {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.card-text strong {
+    color: var(--violeta-medio);
+}
+
+.imagen-cristal {
+    height: 300px;
+    object-fit: contain;
+    padding: 25px;
+    background-color: var(--blanco);
+    border-radius: 13px 13px 0 0;
+}
+
+.card:hover {
+    transform: translate(0, -6px);
+    box-shadow: 0 8px 18px rgba(118, 83, 155, 0.45);
+    border-color: var(--violeta-medio) !important;
+}
+
+.card-body {
+    padding: 25px;
+}
+
+/* FOOTER */
+footer {
+    background-color: var(--violeta-noche);
+    color: var(--blanco);
+    text-align: center;
+    padding: 25px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}

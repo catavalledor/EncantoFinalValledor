@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Encanto Tienda Holística</title>
+
+<!-- Bootstrap CSS -->
+<link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    
+
+<!-- Bootstrap JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Mi CSS -->
+<link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="#inicio">
+            <img
+                src="img/logo-luna.png"
+                alt="Logo de Encanto"
+                width="40"
+                height="40"
+            >
+            ENCANTO
+        </a>
+
+
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menuEncanto"
+        >
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+
+        <div class="collapse navbar-collapse" id="menuEncanto">
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#inicio">Inicio</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#rituales">Rituales</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#cristales">Cristales</a>
+                </li>
+
+                <li class="nav-item">
+                      <a class="nav-link" href="mailto:cvalledor@mail.utdt.edu">Contacto</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</nav>
+
+<header id="inicio">
+    <div class="container">
+        <h1>TIENDA HOLÍSTICA</h1>
+
+        <p class="lead">Cristales, tarot, kits y objetos. Todo lo que necesitás para acompañar tus rituales.</p>
+
+        <a href="#rituales" class="btn"> Armá tu ritual </a>
+    </div>
+</header>
+
+<main>
+    <!-- Sección rituales -->
+    <section id="rituales" class="container">
+
+    <div class="row g-4">
+        <!-- Imagen -->
+        <div class="col-12 col-md-6">
+            <img
+                src="img/ritual.png"
+                alt="Ritual con cristales, vela y cuaderno"
+                class="img-fluid"
+            >
+        </div>
+
+        <!-- Contenido -->
+        <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
+
+            <h2>TU RITUAL, TU MOMENTO</h2>
+            <p class="intro-ritual">
+                No necesitás una ceremonia inmensa. A veces alcanza con bajar el ritmo,
+                elegir una intención y regalarte unos minutos sin distracciones.
+            </p>
+
+            <div class="paso-ritual">
+                <h3>01 · Elegí una intención</h3>
+                <p>
+                    Pensá qué querés acompañar hoy: claridad, calma,
+                    abundancia o transformación.
+                </p>
+            </div>
+
+
+            <div class="paso-ritual">
+                <h3>02 · Prepará tu espacio</h3>
+                <p>
+                    Buscá un lugar tranquilo y elegí los objetos que quieras sumar:
+                    un cristal, una vela, música o un cuaderno.
+                </p>
+            </div>
+
+
+            <div class="paso-ritual">
+                <h3>03 · Cerrá el momento</h3>
+                <p>
+                    Escribí una frase, una intención o simplemente quedate unos minutos
+                    en silencio antes de seguir con tu día.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+</section> <!-- Cierre sección rituales -->
+    
+<!-- Sección cristales -->
+   <section id="cristales">
+
+    <div class="container">
+
+        <div class="intro-cristales">
+            <h2>COMENZÁ POR LOS CRISTALES</h2>
+
+            <p>
+                No todos los momentos piden lo mismo. Explorá nuestra selección
+                y elegí el cristal que mejor represente la intención que querés acompañar.
+            </p>
+        </div>
+
+        <div id="contenedor-cristales" class="row g-4">
+        </div>
+
+    </div>
+
+</section>
+<!-- Cierra sección cristales -->
+
+</main>
+
+<footer>
+    <p>© 2026 Encanto Tienda Holística</p>
+</footer>
+
+<script src="js/code.js"></script>
+
+</body>
+
+</html>

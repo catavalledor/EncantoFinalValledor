@@ -1,0 +1,33 @@
+[
+    {
+        "nombre": "Citrino",
+        "descripcion": "Una piedra tradicionalmente asociada con la manifestación, la abundancia y la prosperidad.",
+        "intencion": "Abundancia, prosperidad y nuevos deseos.",
+        "ritual": "Sostenelo entre tus manos y escribí una intención que quieras atraer durante este nuevo ciclo.",
+        "imagen": "img/citrino.png"
+    },
+
+    {
+        "nombre": "Selenita",
+        "descripcion": "Una piedra asociada con la calma, la tranquilidad y la limpieza de las energías del espacio.",
+        "intencion": "Calma, protección y limpieza.",
+        "ritual": "Colocala cerca de tus otros cristales durante tu ritual de luna llena y usá ese momento para hacer una pausa y soltar lo que ya no necesitás.",
+        "imagen": "img/selenita.png"
+    },
+
+    {
+        "nombre": "Cuarzo transparente",
+        "descripcion": "Un cristal versátil, asociado con la claridad y con la posibilidad de acompañar distintas intenciones.",
+        "intencion": "Claridad, enfoque e intención.",
+        "ritual": "Elegí una intención para este ciclo y mantené el cuarzo cerca mientras meditás sobre ella.",
+        "imagen": "img/cuarzo.png"
+    },
+
+    {
+        "nombre": "Piedra lunar arcoíris",
+        "descripcion": "Tradicionalmente vinculada con los ciclos lunares, la intuición y los procesos de cambio.",
+        "intencion": "Intuición, ciclos y transformación.",
+        "ritual": "Durante la luna llena, dedicá unos minutos a reconocer qué está cambiando y qué querés llevar con vos hacia el próximo ciclo.",
+        "imagen": "img/piedra-lunar.png"
+    }
+]
